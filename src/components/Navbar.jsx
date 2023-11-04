@@ -7,7 +7,7 @@ function Navbar() {
 				<input
 					type="text"
 					placeholder="Search Task..."
-					className="py-1.5 pl-10 pr-3 border-2 rounded-md w-[500px] outline-none focus:border-2 focus:border-gray-400 caret-green-400 font-extralight "
+					className="py-1.5 pl-10 pr-3 border-2 rounded-md w-[500px] outline-none focus:border-2 focus:border-gray-400 caret-green-400 text-gray-600 font-thin "
 				/>
 				<SearchIcon />
 			</div>
