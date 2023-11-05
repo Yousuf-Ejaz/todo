@@ -11,15 +11,15 @@
 			"maxLength": 150
 		},
 
-		"due_date": {
+		"dueDate": {
 			"type": "string",
 			"format": "date"
 		},
 		"priority": {
 			"type": "string",
-			"enum": ["High", "Low", "Medium"]
+			"enum": ["high", "low", "medium"]
 		},
-		"project": {
+		"projectName": {
 			"type": "string",
 			"maxLength": 25
 		}

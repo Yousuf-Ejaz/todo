@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import BinIcon from "../icons/BinIcon";
 import CheckIcon from "../icons/CheckIcon";
 import TasksContext from "../context/TasksContext";

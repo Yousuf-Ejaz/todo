@@ -98,7 +98,11 @@ function Sidebar({ openPopup }) {
 					</div>
 					<div className="flex flex-col gap-1 h-24 overflow-auto ">
 						<div
-							className="flex justify-between p-1.5 hover:bg-gray-100 cursor-pointer"
+							className={`${
+								projectName === "Design Systems"
+									? "bg-gray-200 hover:bg-gray-200"
+									: ""
+							} flex justify-between p-1.5 hover:bg-gray-100 cursor-pointer`}
 							onClick={() => setProjectName("Design Systems")}
 						>
 							<div className="flex justify-start gap-1.5">
@@ -112,7 +116,11 @@ function Sidebar({ openPopup }) {
 							</div>
 						</div>
 						<div
-							className="flex justify-between p-1.5 hover:bg-gray-100 cursor-pointer"
+							className={`${
+								projectName === "Icon Pack Update"
+									? "bg-gray-200 hover:bg-gray-200"
+									: ""
+							} flex justify-between p-1.5 hover:bg-gray-100 cursor-pointer`}
 							onClick={() => setProjectName("Icon Pack Update")}
 						>
 							<div className="flex justify-start gap-1.5">
@@ -126,7 +134,11 @@ function Sidebar({ openPopup }) {
 							</div>
 						</div>
 						<div
-							className="flex justify-between p-1.5 hover:bg-gray-100 cursor-pointer"
+							className={`${
+								projectName === "Website Redesign"
+									? "bg-gray-200 hover:bg-gray-200"
+									: ""
+							} flex justify-between p-1.5 hover:bg-gray-100 cursor-pointer`}
 							onClick={() => setProjectName("Website Redesign")}
 						>
 							<div className="flex justify-start gap-1.5">

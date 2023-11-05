@@ -9,11 +9,11 @@
 
 		{
 			"type": "Control",
-			"scope": "#/properties/due_date"
+			"scope": "#/properties/dueDate"
 		},
 		{
 			"type": "Control",
-			"scope": "#/properties/project"
+			"scope": "#/properties/projectName"
 		},
 		{
 			"type": "Control",

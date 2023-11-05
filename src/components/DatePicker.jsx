@@ -26,8 +26,9 @@ export default function RainbowDatepicker({ currDate, updateValue }) {
 			id="datePicker-1"
 			value={date}
 			onChange={onChange}
-			label="DatePicker Label"
+			label="Due Date"
 			formatStyle="large"
+      className="py-2 text-left"
 		/>
 	);
 }

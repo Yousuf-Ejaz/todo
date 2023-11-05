@@ -1,6 +1,6 @@
-import { rankWith, scopeEndsWith } from "@jsonforms/core";
+import { rankWith as DatePickerTester, scopeEndsWith } from "@jsonforms/core";
 
-export default rankWith(
+export default DatePickerTester(
 	13, //increase rank as needed
-	scopeEndsWith("due_date")
+	scopeEndsWith("dueDate")
 );
