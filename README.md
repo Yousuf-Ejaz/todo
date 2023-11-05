@@ -1,8 +1,18 @@
-# React + Vite
+# Todo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This project contains all the required functionalities (even the Bonuses) with a responsive and intuitive design.
+- Tech Used: React + Vite
 
-Currently, two official plugins are available:
+```
+# clone the repository to your local machine
+$ git clone `git clone https://github.com/<YOUR-GITHUB-USERNAME>/todo.git`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# navigate to the project's directory and install all the relevant dev-dependencies as well as dependencies
+$ yarn
+   
+# Start application
+$ yarn dev
+
+# View it on http://localhost:5173/ 
+
+```
