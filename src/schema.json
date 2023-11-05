@@ -1,0 +1,28 @@
+{
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string",
+			"minLength": 1
+		},
+		"description": {
+			"title": "Description",
+			"type": "string",
+			"maxLength": 150
+		},
+
+		"due_date": {
+			"type": "string",
+			"format": "date"
+		},
+		"priority": {
+			"type": "string",
+			"enum": ["High", "Low", "Medium"]
+		},
+		"project": {
+			"type": "string",
+			"maxLength": 25
+		}
+	},
+	"required": ["name", "due_date"]
+}
